@@ -1,0 +1,10 @@
+http POST http://127.0.0.1:5000/chatbot message="Hola"
+
+ImportError: cannot import name 'DEFAULT_CIPHERS' from 'urllib3.util.ssl_'
+
+Solucion:
+pip install awscli --ignore-installed six
+
+
+Una opción virtual para probar la API es el httpie:
+pip install httpie
